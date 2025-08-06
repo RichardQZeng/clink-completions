@@ -29,7 +29,7 @@ local function is_optional(user_data, word_index)
 end
 
 if clink_version.supports_color_settings then
-    settings.add('color.git.star', 'bright green', 'Color for preferred branch completions')
+--    settings.add('color.git.star', 'bright green', 'Color for preferred branch completions')
 end
 
 local file_matches = clink.filematches or matchers.files
